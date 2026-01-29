@@ -1,0 +1,15 @@
+repository_type: pipeline
+
+nf_core_version: 3.5.1
+
+lint: {}
+
+template:
+  org: nf-core
+  name: myfirstpipeline
+  description: Learning how to create a nextflow pipeline from scratch
+  author: "Mar\xEDa Carazo"
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  is_nfcore: true
